@@ -63,10 +63,6 @@ pytestdebug.log
 *.csv
 *.xlsx
 
-# Model / pipeline files
-*.pkl
-*.joblib
-
 # OS files
 .DS_Store
 Thumbs.db
