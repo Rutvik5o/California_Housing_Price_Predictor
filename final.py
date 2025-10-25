@@ -101,11 +101,11 @@ if not os.path.exists(MODEL_FILE) or not os.path.exists(PIPELINE_FILE):
     if st.button("🛠 Train Model Now"):
         train_model()
     st.stop()
--
+
 model = joblib.load(MODEL_FILE)
 pipeline = joblib.load(PIPELINE_FILE)
 
--
+
 st.sidebar.header("🏠 Enter Housing Details")
 
 longitude = st.sidebar.number_input("Longitude", value=-121.89, step=0.1)
